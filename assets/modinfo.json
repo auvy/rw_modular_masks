@@ -1,0 +1,11 @@
+{
+	"id": "modularmasks",
+	"name": "[Gameplay][Test] modular masks",
+	"version": "0.0.6.9",
+	"authors": "me lol",
+	"description": "modular masks"
+	"tags": ["idk" ],
+	"requirements": [],
+	"requirements_names": [],
+	"checksum_override_version": true
+}
