@@ -13,6 +13,7 @@ My weird design choices:
 - the texture is merged into one pixel by pixel, and all 9 rotations *are not* stored as one atlas, but as *separate atlases of one rotation*. This is because i don't know how atlases work in the game.
 - technically CWT should make sure there is no remaining masks left, but *i do not remember* if the mask sprites get deleted when the mask is gone/vulture dies for memory. Most likely not.
 - the sprites are dumped into StreamingAssets during playtime as .pngs for debugging purposes.
+- the scavenger paint was supposed to be implemented, for elite scavengers, but i do not know how to do it. Maybe like king vulture arrows idk.
 
 TODO:
 - split the code by modules
