@@ -1,3 +1,5 @@
+![thumbnail](assets/thumbnail.png)
+
 Instead of usual boring vulture masks, this mod makes them more individualized.
 
 New individualized masks consist of multiple parts: eye cutouts, lower mask, forehead, horns, side horns. (Paint is not yet done.)
