@@ -1,0 +1,195 @@
+{
+  "frames": {
+    "ModularChiefPaintBase_0_0.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_1.png": {
+      "frame": {
+        "x": 121,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_2.png": {
+      "frame": {
+        "x": 242,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_3.png": {
+      "frame": {
+        "x": 363,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_4.png": {
+      "frame": {
+        "x": 484,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_5.png": {
+      "frame": {
+        "x": 605,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_6.png": {
+      "frame": {
+        "x": 726,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_7.png": {
+      "frame": {
+        "x": 847,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    },
+    "ModularChiefPaintBase_0_8.png": {
+      "frame": {
+        "x": 968,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 121,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 121
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ModularChiefPaintBase.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1089,
+      "h": 121
+    },
+    "scale": "1"
+  }
+}
