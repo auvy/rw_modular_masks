@@ -1,0 +1,456 @@
+{
+	"pieces": [
+		{
+			"name": "Base",
+			
+			"hashingName": "MergeBase",
+			"prime": 2,
+			"biased": true,
+			
+			"atlasCombinationTag": "BS",
+			"source": "Sprite",
+			"sourceName": "ModularMergeBase",
+			
+			"algorithmName": "VultureMask",
+			"order": 0
+		},
+		{
+			"name": "Horns",
+			
+			"hashingName": "MergeHorns",
+			"prime": 3,
+			"biased": true,
+
+			"atlasCombinationTag": "HS",
+			"source": "Sprite",
+			"sourceName": "ModularMergeHorns",
+			
+			"algorithmName": "VultureMask",
+			"order": 1,
+			"operation": "Merge"
+		},
+		{
+			"name": "Eyes",
+			
+			"hashingName": "CarveEyes",
+			"prime": 7,
+			"biased": true,
+
+			"atlasCombinationTag": "EY",
+			"source": "Sprite",
+			"sourceName": "ModularCarveEyes",
+			
+			"algorithmName": "VultureMask",
+			"order": 2,
+			"operation": "Carve"
+		},
+		{
+			"name": "Mouth",
+
+			"hashingName": "CarveMouth",
+			"prime": 11,
+			"biased": true,
+
+			"atlasCombinationTag": "MH",
+			"source": "Sprite",
+			"sourceName": "ModularCarveMouth",
+			
+			"algorithmName": "VultureMask",
+			"order": 3,
+			"operation": "Carve"
+		},
+		{
+			"name": "Damage",
+
+			"hashingName": "CarveDamage",
+			"prime": 13,
+			"biased": true,
+
+			"atlasCombinationTag": "DM",
+			"source": "Sprite",
+			"sourceName": "ModularCarveDamage",
+			
+			"algorithmName": "VultureMask",
+			"order": 4,
+			"operation": "Carve"
+		},
+		
+		{
+			"name": "Paint",
+
+			"hashingName": "ElitePaint",
+			"prime": 17,
+			"biased": false,
+
+			"atlasCombinationTag": "SP",
+			"source": "Sprite",
+			"sourceName": "ModularElitePaint",
+			
+			"algorithmName": "ElitePaint",
+			"order": 0,
+		},
+
+		
+		{
+			"name": "ChiefMergeBase",
+
+			"hashingName": "ChiefMergeBase",
+			"prime": 29,
+			"biased": false,
+			"nameorder": 9,
+			"atlasCombinationTag": "CFMB",
+			"source": "Sprite",
+			"sourceName": "ModularChiefMergeBase",
+			
+			"algorithmName": "ChiefMask",
+			"order": 0
+		},
+		{
+			"name": "ChiefMergeHorns",
+
+			"hashingName": "ChiefMergeHorns",
+			"prime": 29,
+			"biased": false,
+
+			"atlasCombinationTag": "CFMH",
+			"source": "Sprite",
+			"sourceName": "ModularChiefMergeHorns",
+			
+			"algorithmName": "ChiefMask",
+			"order": 1,
+			"operation": "Merge"
+		},
+		{
+			"name": "ChiefCarveEyes",
+
+			"hashingName": "ChiefCarveEyes",
+			"prime": 29,
+			"biased": false,
+
+			"atlasCombinationTag": "CFCE",
+			"source": "Sprite",
+			"sourceName": "ModularChiefCarveEyes",
+			
+			"algorithmName": "ChiefMask",
+			"order": 2,
+			"operation": "Carve"
+		},
+		
+		
+		{
+			"name": "ChiefPaintBase",
+
+			"hashingName": "ChiefPaintBase",
+			"prime": 29,
+			"biased": false,
+
+			"atlasCombinationTag": "CFPMB",
+			"source": "Sprite",
+			"sourceName": "ModularChiefPaintBase",
+			
+			"algorithmName": "ChiefPaint",
+			"order": 0
+		},
+		{
+			"name": "ChiefPaintHorns",
+
+			"hashingName": "ChiefPaintHorns",
+			"prime": 29,
+			"biased": false,
+
+			"atlasCombinationTag": "CFPMH",
+			"source": "Sprite",
+			"sourceName": "ModularChiefPaintHorns",
+			
+			"algorithmName": "ChiefPaint",
+			"order": 1,
+			"operation": "Merge",
+			"overrideVariation": "ChiefMergeHorns"
+		},
+		
+		
+		
+		
+		
+		{
+			"name": "Arrow",
+
+			"hashingName": "KingArrow",
+			"prime": 19,
+			"biased": false,
+
+			"atlasCombinationTag": "KA",
+			"source": "Sprite",
+			"sourceName": "ModularKingArrow"
+		},
+		{
+			"name": "ChiefColor",
+
+			"hashingName": "ColorChiefColor",
+			"prime": 37,
+			"biased": false,
+
+			"atlasCombinationTag": "CFC",
+			"source": "Colors",
+			"sourceName": "chiefMaskColors"
+		},
+		{
+			"name": "PaintColor",
+
+			"hashingName": "ColorPaintColor",
+			"prime": 23,
+			"biased": false,
+			
+			"atlasCombinationTag": "SPC",
+			"source": "Colors",
+			"sourceName": "scavPaintColors"
+		},
+	],
+    "scavPaintColors": [
+        {
+            "r": 35,
+            "g": 35,
+            "b": 35
+        },
+        {
+            "r": 158,
+            "g": 24,
+            "b": 31
+        },
+        {
+            "r": 72,
+            "g": 175,
+            "b": 255
+        },
+        {
+            "r": 254,
+            "g": 122,
+            "b": 32
+        },
+		{
+			"r": 8,
+			"g": 4,
+			"b": 152
+		},
+		{
+			"r": 215,
+			"g": 211,
+			"b": 193
+		},
+		{
+			"r": 199,
+			"g": 203,
+			"b": 206
+		}
+    ],
+	
+	"pearlStringOffsets" : [
+		[
+		  [
+			{ "x": 33.0, "y": 47.0 },
+			{ "x": 82.0, "y": 47.0 },
+			{ "x": 45.0, "y": 35.0 },
+			{ "x": 72.0, "y": 35.0 }
+		  ],
+		  [
+			{ "x": 40.0, "y": 51.0 },
+			{ "x": 79.0, "y": 48.0 },
+			{ "x": 47.0, "y": 35.0 },
+			{ "x": 69.0, "y": 37.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 84.0, "y": 54.0 },
+			{ "x": 55.0, "y": 40.0 },
+			{ "x": 74.0, "y": 40.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 80.0, "y": 60.0 },
+			{ "x": 54.0, "y": 40.0 },
+			{ "x": 75.0, "y": 41.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 81.0, "y": 62.0 },
+			{ "x": 71.0, "y": 48.0 },
+			{ "x": 76.0, "y": 50.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 79.0, "y": 79.0 },
+			{ "x": 82.0, "y": 63.0 },
+			{ "x": 82.0, "y": 65.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 77.0, "y": 80.0 },
+			{ "x": 81.0, "y": 53.0 },
+			{ "x": 60.0, "y": 60.0 }
+		  ],
+		  [
+			{ "x": 60.0, "y": 60.0 },
+			{ "x": 86.0, "y": 56.0 },
+			{ "x": 70.0, "y": 45.0 },
+			{ "x": 79.0, "y": 45.0 }
+		  ],
+		  [
+			{ "x": 39.0, "y": 58.0 },
+			{ "x": 79.0, "y": 58.0 },
+			{ "x": 46.0, "y": 52.0 },
+			{ "x": 72.0, "y": 52.0 }
+		  ]
+		],
+		[
+			  [
+				{ "x": 37.0, "y": 42.0 },
+				{ "x":  83.0, "y": 42.0 },
+				{ "x": 44.0, "y": 30.0 },
+				{ "x":  76.0, "y": 30.0 }
+			  ],
+			  [
+				{ "x": 50.0, "y": 39.0 },
+				{ "x":  81.0, "y": 49.0 },
+				{ "x": 56.0, "y": 31.0 },
+				{ "x":  77.0, "y": 37.0 }
+			  ],
+			  [
+				{ "x":  51.0, "y": 42.0 },
+				{ "x":  83.0, "y": 51.0 },
+				{ "x": 58.0, "y": 31.0 },
+				{ "x":  81.0, "y": 38.0 }
+			  ],
+			  [
+				{ "x":  47.0, "y": 43.0 },
+				{ "x":  76.0, "y": 50.0 },
+				{ "x":  54.0, "y": 32.0 },
+				{ "x":  74.0, "y": 37.0 }
+			  ],
+			  [
+				{ "x":  76.0, "y": 50.0 },
+				{ "x":  78.0, "y": 50.0 },
+				{ "x":  72.0, "y": 37.0 },
+				{ "x":  78.0, "y": 38.0 }
+			  ],
+			  [
+				{ "x":  67.0, "y": 66.0 },
+				{ "x":  76.0, "y": 68.0 },
+				{ "x":  80.0, "y": 56.0 },
+				{ "x":  89.0, "y": 61.0 }
+			  ],
+			  [
+				{ "x":  50.0, "y": 56.0 },
+				{ "x":  76.0, "y": 65.0 },
+				{ "x":  61.0, "y": 49.0 },
+				{ "x":  79.0, "y": 55.0 }
+			  ],
+			  [
+				{ "x":  50.0, "y": 42.0 },
+				{ "x":  80.0, "y": 55.0 },
+				{ "x":  58.0, "y": 37.0 },
+				{ "x":  76.0, "y": 47.0 }
+			  ],
+			  [
+				{ "x": 37.0, "y": 45.0 },
+				{ "x":  82.0, "y": 45.0 },
+				{ "x": 46.0, "y": 40.0 },
+				{ "x":  74.0, "y": 40.0 }
+			  ]
+		],
+		[
+			  [
+				{ "x": 43.0, "y": 46.0 },
+				{ "x":  77.0, "y": 46.0 },
+				{ "x": 40.0, "y": 16.0 },
+				{ "x":  80.0, "y": 16.0 }
+			  ],
+			  [
+				{ "x": 48.0, "y": 46.0 },
+				{ "x":  77.0, "y": 53.0 },
+				{ "x": 55.0, "y": 18.0 },
+				{ "x":  90.0, "y": 25.0 }
+			  ],
+			  [
+				{ "x":  50.0, "y": 45.0 },
+				{ "x":  76.0, "y": 51.0 },
+				{ "x": 57.0, "y": 16.0 },
+				{ "x":  89.0, "y": 25.0 }
+			  ],
+			  [
+				{ "x":  49.0, "y": 45.0 },
+				{ "x":  70.0, "y": 49.0 },
+				{ "x":  59.0, "y": 18.0 },
+				{ "x":  83.0, "y": 22.0 }
+			  ],
+			  [
+				{ "x":  65.0, "y": 48.0 },
+				{ "x":  67.0, "y": 48.0 },
+				{ "x":  75.0, "y": 21.0 },
+				{ "x":  78.0, "y": 21.0 }
+			  ],
+			  [
+				{ "x":  70.0, "y": 60.0 },
+				{ "x":  72.0, "y": 63.0 },
+				{ "x":  97.0, "y": 57.0 },
+				{ "x":  101.0, "y": 57.0 }
+			  ],
+			  [
+				{ "x":  41.0, "y": 49.0 },
+				{ "x":  70.0, "y": 59.0 },
+				{ "x":  51.0, "y": 37.0 },
+				{ "x":  87.0, "y": 51.0 }
+			  ],
+			  [
+				{ "x":  50.0, "y": 46.0 },
+				{ "x":  72.0, "y": 52.0 },
+				{ "x":  56.0, "y": 37.0 },
+				{ "x":  83.0, "y": 46.0 }
+			  ],
+			  [
+				{ "x": 46.0, "y": 45.0 },
+				{ "x":  74.0, "y": 45.0 },
+				{ "x": 42.0, "y": 35.0 },
+				{ "x":  78.0, "y": 35.0 }
+			  ]
+		]
+	],
+	"pearlOffsetIsCenter": false,
+	"pearlAttachmentPiece": "ChiefMergeHorns",
+
+	
+	"kingArrowName": "KingArrow",
+	
+	"maskPiecePrefix": "Modular",
+	"maskAtlasPrefix": "ModularMask",
+	
+	"eliteScavPaintName": "ElitePaint",
+	
+	"chiefMaskName": "ChiefMask",
+	"chiefPaintName": "ChiefPaint",
+	
+	"chiefMaskBoneColorName": "ColorChiefColor",
+	"scavPaintColorName": "ColorPaintColor",
+
+	"chiefMaskColors": [
+        {
+            "r": 212,
+            "g": 179,
+            "b": 142
+        }
+	],
+	
+	"blendingColorNumMask": 1,
+	"blendingColorNumPaint": 1,
+	"brightnessDivisor": 20,
+	"darknessDivisor": 30,
+	
+	"vultureMaskSpriteDim": 61,
+	"chieftainMaskSpriteDim": 121,
+	
+	"vanillaBiasHashChance": 30,
+	"usePrimesForHashing": false,
+	"maskPieceVariationCeiling": 100,
+	
+	"debugLog": true,
+	"debugOutputImage": true
+}
