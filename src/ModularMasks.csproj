@@ -11,6 +11,10 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
   <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="Exists('$(RainWorldDir)')">
     <ItemGroup>
       <Assets Include="$(ProjectDir)../assets/**/*.*" />
